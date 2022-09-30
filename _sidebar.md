@@ -3,7 +3,7 @@
  	- [Home](/)
  	- [Life](/LIFE.md)
 
-- Java
+- Programming
 	
 	- [CommandLine](Java/CommandLine.md)
  	- [JavaBase](Java/JavaBase.md)
