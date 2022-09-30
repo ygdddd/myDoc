@@ -1,8 +1,9 @@
 - Main
  
  	- [Home](/)
- 	- [Life](/LIFE.md)
+ 	- [Life](../LIFE.md)
 
-- Java
- 
- 	- [JavaBase](Java/JavaBase.md)
+- Programming
+	
+	- [Command](CommandLine.md)
+ 	- [JavaBase](JavaBase.md)
