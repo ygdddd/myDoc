@@ -17,3 +17,6 @@
 - cd ../. change directory
 - tree 查看所有子目录
 - cls = clear
+
+
+## linux命令
