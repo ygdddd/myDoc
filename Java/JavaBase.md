@@ -18,12 +18,13 @@ J2ME：Java ME，支持Java在移动端运行的平台，精简API并加入针�
 3. 编译：Javac（Java complier）将.java编译成.class（JVM识别的字节码文件），再用Java将.class装载到JVM执行
 4. JVM屏蔽了不同平台的执行机制，实现跨平台
 
-``` 
-JDK(Java Development Kit)：单独给开发人员使用的工具，包括JRE
-JRE(Java Runtime Environmen)：包括JVM和核心类库，运行程序只需要JRE
-JDK = JRE + Java开发工具
-JRE = JVM + Java核心类库
-```
+
+- JDK(Java Development Kit)：单独给开发人员使用的工具，包括JRE
+- JRE(Java Runtime Environmen)：包括JVM和核心类库，运行程序只需要JRE
+- JDK = JRE + Java开发工具
+- JRE = JVM + Java核心类库
+
+JVM结构：JVM包含栈、堆、方法区
 
 ### Java文件中的Class
 
@@ -198,6 +199,24 @@ String str = inputScanner.next();
 
 数组的长度：array.length
 
+数组中元素可以指定为任何类型，包括基本类型和引用类型，不能混用
+
+数组属于引用类型，数组型数据是对象。
+
+直接赋值整个数组在默认情况下是引用传递
+
+数组创建时元素默认值：
+| type | default |
+|:----:|:-------:|
+| int | 0|
+| short | 0 |
+| byte | 0 |
+| long | 0 |
+| float | 0.0 |
+| double| 0.0 |
+| char| \u0000 |
+| boolean | false |
+|String | null|
 
 ```Java
     //定义数组的多种方式，下标从0开始
@@ -207,3 +226,37 @@ String str = inputScanner.next();
     //等价于先声明，再分配
     type[] arr2 = new type[len];//动态初始化，长度为len
 ```
+
+### 二维数组
+
+相当于一维数组的每个元素也是一维数组，使用两层下标访问特定元素。
+
+共三种声明方式
+- type[][] name
+- type name[][]
+- type[] name[]
+
+```Java
+    type[][] _2Darr1 = {{1}, {2,3}, {1,3,5}}; //静态初始化，直接填充数据元素
+    
+    type[][] _2Darr2 = new type[amount][size];//动态初始化，有amount个一维数组，每个一维数组的大小为size
+```
+## 排序
+
+内部排序：将所有需要处理的数据都加载到内存中进行排序
+- 交换排序
+- 选择排序
+- 插入排序
+
+外部排序：数据量过大导致无法全部加载到内存中，需要借助外部存储进行排序
+- 合并排序
+- 直接合并排序
+
+## 查找
+
+顺序查找：
+
+二分查找：
+
+# 面向对象 Object Oriented Programming
+
