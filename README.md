@@ -5,7 +5,7 @@
 ## TOOLS
 
 - [Docsify](https://docsify.js.org/)
-- [MarkDown](https://markdown.com.cn/extended-syntax/tables.html)
+- [MarkDown](https://markdown.com.cn/)
 - [Github](https://github.phodal.com/#/)
 
 ## PLAN

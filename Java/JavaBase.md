@@ -260,3 +260,21 @@ String str = inputScanner.next();
 
 # 面向对象 Object Oriented Programming
 
+## 类与对象
+
+类即数据类型，是概念性的模板（包含某类实体提取到的所有属性以及行为）
+
+对象即某个类的实例，属于具体的事物（具有特异化的属性以及通用的行为）
+
+```Java
+//创建类
+class DemoCLoas{
+    type attr1;
+    ...
+    type attrN;
+    DemoClass(){
+
+    }
+}
+
+```
