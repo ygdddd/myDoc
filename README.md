@@ -6,7 +6,8 @@
 
 - [Docsify](https://docsify.js.org/)
 - [MarkDown](https://markdown.com.cn/)
-- [Github](https://github.phodal.com/#/)
+- [Github Guide](https://github.phodal.com/#/)
+- [CS Learning](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/)
 
 ## PLAN
 
